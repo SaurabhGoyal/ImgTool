@@ -1,4 +1,4 @@
-JPixelator
+ImgTool
 ==========
 
 Java programs related to digital image processing and manipulation.
