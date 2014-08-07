@@ -34,9 +34,9 @@ public class JPixelator {
 				pixelate(pixelRGB[i][j], pixLevel, i, j);
 			}
 		}
-		File op = new File(outputLocation);
+		File output = new File(outputLocation);
 		try {
-			ImageIO.write(outputImage, "jpg", op);
+			ImageIO.write(outputImage, "jpg", output);
 			System.out.println("Pixelated image generated");
 		} catch (Exception e) {
 			System.err.println("Image not generated");
